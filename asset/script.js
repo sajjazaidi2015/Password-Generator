@@ -59,7 +59,7 @@ function generatePassword() {
   ) {
     return "No password criteria is selected";
   }
-
+ 
   //  Define an array of Lowercase Alphabets
   let lowerCaseAlphabets = [
     "a",
@@ -170,4 +170,5 @@ function generatePassword() {
   const splicedOutput = output.splice(0, inputLength);
   //  convert array into string using join('')
   return splicedOutput.join("");
+
 }
